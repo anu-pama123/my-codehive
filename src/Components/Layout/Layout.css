@@ -1,0 +1,13 @@
+.layout-container {
+  height: 100vh;  
+  background-color: #D7F5DC;
+}
+
+.header-container {
+    height: 13vh;
+    display: flex;
+}
+
+.body-conatainer {
+    /* height: 80vh; */
+}

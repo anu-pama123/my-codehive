@@ -1,0 +1,67 @@
+.header-subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.avatar {
+    color: #FFFFFF; 
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:100%;
+    width:50px;
+    height: 50px;
+    font-weight: 600;
+    background: #20B15A;
+}
+
+.name-container {
+    display: flex;
+    gap: 10px;
+}
+
+.avatar-container {
+    margin: auto;
+}
+
+.pagename-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pagename-subcontainer {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin: auto;
+}
+
+.contact-section {
+    background-color: #20B15A;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact {
+   margin: 10px;
+   color: #FFFFFF;
+}
+
+.name {
+    margin: auto;
+}

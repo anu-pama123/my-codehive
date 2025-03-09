@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+.home-page-container1 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 80px;
+    height: 87vh;
+}
+
+.about-section-title {
+    
+}
+
+h1 {
+    font-size: 45px;
+    margin: unset;
+}
+
+.home-page-section1 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.about-section-container {
+    width: 40%;
+}
+
+.about-section-image-container {
+    width: 60%;
+}
+
+.user-image {
+    height: 40vh;
+}
+
+.description {
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.home-page-section2-subsection {
+    display: flex;
+    flex-direction: column;
+    /* border-style: solid; */
+    display: flex;
+    border-radius: 5px;
+    background-color: #6262622e;
+    width: 150px;
+}
+
+.home-page-section2-container {
+    display: flex;
+    gap: 20px;
+}
+
+.experiance-section, .project-section, .client-section {
+    margin: 15px;
+}
+
+.home-page-section2-subsection div div {
+    text-align: center;
+}
+
+.download-section {
+    display: flex;
+    /* margin: 3px; */
+}
+
+.download-icon {
+    margin: auto;
+}
+
+.download-section-container{
+    background-color: #20B15A;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h3 {
+    font-weight: unset;
+}
+
+
+.home-page-container2 {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 80px;
+    height: 87vh;
+}
+
+.recent-projects-section {
+    width: 100%;
+    height: 70%;
+    background-color: #D7F5DC;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+}
+
+.recent-projects-title {
+    text-align: center;
+}
