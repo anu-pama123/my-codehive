@@ -7,9 +7,18 @@ import { FaArrowDownLong } from "react-icons/fa6";
 //assets
 import userImage from "../../Assets/Images/frontend1.png";
 
+//data
+import recentProjects from "../../Data/recentProjects.json";
+
+//components
+import AboutMe from "../../Components/Home/AboutMe/AboutMe";
+import ProjectDiscussionform from "../../Components/Home/ProjectDiscussionForm/ProjectDiscussionForm";
+import Footer from "../../Components/Footer/Footer";
+
 const Home = () => {
     return (
         <div>
+            {console.log(recentProjects)}
             <div className="home-page-container1">
                 <div className="home-page-section1">
                     <div className="about-section-container">
@@ -60,7 +69,35 @@ const Home = () => {
             <div className="home-page-container2">
                 <div className="recent-projects-section">
                     <div className="recent-projects-title">Recent Projects</div>
+                    <div className="recent-projects-container">
+                        {recentProjects.map((project,id) => (
+                            <div key={id} className="recent-projects">
+                                <span className="recent-project-name">
+                                    <div>
+                                        <h3>{project.projectName}</h3>
+                                    </div>
+                                </span>
+                                <span className="recent-project-description">
+                                    <p>{project.description}</p>
+                                </span>
+                                <span className="recent-project-skills">
+                                    <i>Javascript</i>
+                                    <i>React</i>
+                                </span>
+                            </div>
+                        ))}
+                    </div>
                 </div>
+                
+            </div>
+            <div className="home-page-container3">
+                <AboutMe />
+            </div>
+            <div className="home-page-container4">
+                <ProjectDiscussionform />
+            </div>
+            <div className="home-page-container5">
+                <Footer />
             </div>
         </div>
         

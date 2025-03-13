@@ -12,7 +12,7 @@ import "../Layout/Layout.css";
 
 const Layout = () => {
     const location = useLocation();
-    const [actveLocation, setActiveLocation] = useState("/");
+    const [actveLocation, setActiveLocation] = useState(null);
     useEffect(() => {
         setActiveLocation(location.pathname)
     },[location])

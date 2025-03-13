@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "projectName": "Tandem Diabetes care INC",
+        "description": "Comprehensive credit management mobile application.",
+        "Skills": ["javascript", "React", "CSS"]
+    },
+    {
+        "id": 2,
+        "projectName": "Tandem Diabetes care INC",
+        "description": "Comprehensive credit management mobile application.",
+        "Skills": ["javascript", "React", "CSS"]
+    },
+    {
+        "id": 3,
+        "projectName": "Valuematrix.AI",
+        "description": "Comprehensive credit management mobile application.",
+        "Skills": ["javascript", "React", "CSS"]
+    },
+    {
+        "id": 4,
+        "projectName": "TAPPET",
+        "description": "Comprehensive credit management mobile application.",
+        "Skills": ["javascript", "React", "CSS"]
+    },
+    {
+        "id": 5,
+        "projectName": "BIPP",
+        "description": "Comprehensive credit management mobile application.",
+        "Skills": ["javascript", "React", "CSS"]
+    }
+]
