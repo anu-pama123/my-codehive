@@ -19,6 +19,9 @@
 
 }
 
+.project-discussion-description-container {
+    margin-top: 30px;
+}
 .social-media-icons-container {
     display: flex;
     gap: 20px;
@@ -34,6 +37,7 @@
 .linkedin-section {
     display: flex;
     height: 6vh;
+    margin: 15px;
 }
 
 .address-section {
@@ -58,19 +62,34 @@
     height: 7vh;
 }
 
-.email-section, .phone-section, .linkedin-section {
+.email-section, .phone-section {
     height: 90%;
     margin: 15px;
 }
 
 .email-section h3, .phone-section h3{
-    margin-top: unset !important;
+    margin: unset !important;
 }
 
 .email-section p, .phone-section p {
-    margin-bottom: unset !important;
+    margin: unset !important;
 }
 
 .social-media-icons-container {
     margin-top: 4rem;
+}
+
+.email-name, .phone-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.github-section {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.github-icon {
+    fill: #20B15A
 }

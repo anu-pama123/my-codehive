@@ -4,7 +4,22 @@
     display: flex;
     margin: auto;
     gap: 80px;
-    height: 87vh;
+    height: 100%;
+}
+
+.about-me-description {
+    display: flex;
+    width: 50%;
+}
+
+.aboutme-description-section {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.skills-description-container {
+    display: flex;
+    width: 50%;
 }
 
 .recent-projects-section {
@@ -21,7 +36,7 @@
 
 .recent-projects-title {
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     margin-top: 30px;
 }
 
@@ -47,19 +62,26 @@
     justify-content: space-around;
     margin: auto;
     padding: 25px 0px 25px 0px;
+    margin: auto;
 }
 
-.home-page-container3 {
+/* .home-page-container3 {
     height: 60vh;
     background-color: #D7F5DC;
     margin-top: 100px;
     
-}
+} */
 
 .skills {
     background-color: white;
-    /* margin: 20px; */
-    /* display: flex; */
     padding: 4%;
     border-radius: 20px;
+}
+
+.hello-button {
+    background-color: #20b15a;
+    border: none !important;
+    border-radius: 6px;
+    padding: 7px;
+    color: #FFFFFF;
 }

@@ -1,0 +1,20 @@
+.awssld {
+    height: 40vh !important;
+}
+
+.awssld__content {
+    background-color: unset !important;
+}
+
+.awssld__controls {
+    display: none;
+}
+
+.slider-container {
+    display: flex;
+}
+
+.awssld{
+    width: 60%;
+    margin: auto;
+}

@@ -37,7 +37,7 @@ const ProjectDiscussionContacts =  () => {
                         <div className="email-icon-section">
                             <MdOutlineAttachEmail className="email-icon"/>
                         </div>
-                        <div>
+                        <div className="email-name">
                             <h3>My Email:</h3>
                             <p className="email">anu.anupamacv@gmail.com</p>
                         </div>
@@ -48,7 +48,7 @@ const ProjectDiscussionContacts =  () => {
                         <div className="phone-icon-section">
                             <VscCallIncoming className="phone-icon" />
                         </div>
-                        <div>
+                        <div className="phone-details">
                             <h3>Call Me Now:</h3>
                             <p className="phone-number">8086127102</p>
                         </div>
@@ -59,8 +59,8 @@ const ProjectDiscussionContacts =  () => {
                 <div className="linkedin-section">
                     <PiLinkedinLogo className="linkedin-icon"/>
                 </div>
-                <div>
-                    <VscGithubInverted />
+                <div className="github-section">
+                    <VscGithubInverted className="github-icon" />
                 </div>
             </div>
         </div>

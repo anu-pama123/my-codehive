@@ -16,6 +16,7 @@ import ProjectDiscussionform from "../../Components/Home/ProjectDiscussionForm/P
 import Footer from "../../Components/Footer/Footer";
 import ProjectDiscussionContacts from "../../Components/Home/ProjectFDiscussionContacts/ProjectDiscussionContacts";
 import { Paper } from "@mui/material";
+import Testimonial from "../../Components/Home/Testmonial/Testimonial";
 
 const Home = () => {
     return (
@@ -96,12 +97,15 @@ const Home = () => {
                 <AboutMe />
             </div>
             <div className="home-page-container4">
+                <Testimonial />
+            </div>
+            <div className="home-page-container5">
                 <Paper className="MuiPaper-rounded" elevation={3}>
                     <ProjectDiscussionContacts />
                     <ProjectDiscussionform />
                 </Paper>
             </div>
-            <div className="home-page-container5">
+            <div className="home-page-container6">
                 <Footer />
             </div>
         </div>
