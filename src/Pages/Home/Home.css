@@ -149,8 +149,22 @@ h3 {
 }
 
 .home-page-container4 {
-    height: 7src/Components/Layout/Layout.js 0vh;
+    height: 70vh;
     background-color: #FFFFFF;
     margin-top: 100px;
+    display: flex;
+}
+
+.home-page-container5 {
+    height: 20vh;
+    background-color: #D7F5DC;
+    margin-top: 100px;
     
+}
+
+.home-page-container4 .css-1gtchvp-MuiPaper-root {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
 }

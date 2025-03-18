@@ -14,6 +14,8 @@ import recentProjects from "../../Data/recentProjects.json";
 import AboutMe from "../../Components/Home/AboutMe/AboutMe";
 import ProjectDiscussionform from "../../Components/Home/ProjectDiscussionForm/ProjectDiscussionForm";
 import Footer from "../../Components/Footer/Footer";
+import ProjectDiscussionContacts from "../../Components/Home/ProjectFDiscussionContacts/ProjectDiscussionContacts";
+import { Paper } from "@mui/material";
 
 const Home = () => {
     return (
@@ -94,7 +96,10 @@ const Home = () => {
                 <AboutMe />
             </div>
             <div className="home-page-container4">
-                <ProjectDiscussionform />
+                <Paper className="MuiPaper-rounded" elevation={3}>
+                    <ProjectDiscussionContacts />
+                    <ProjectDiscussionform />
+                </Paper>
             </div>
             <div className="home-page-container5">
                 <Footer />
