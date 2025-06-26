@@ -1,13 +1,13 @@
 .layout-container {
-  height: 100vh;  
-  background-color: #D7F5DC;
+  height: 100vh;
+  background-color: #d7f5dc;
 }
 
 .header-container {
-    height: 13vh;
-    display: flex;
+  height: 13vh;
+  display: flex;
 }
 
 .body-conatainer {
-    /* height: 80vh; */
+  /* height: 80vh; */
 }

@@ -1,95 +1,107 @@
 .project-discussion-contacts-container {
-    width: 50%;
-    margin: 5rem 2rem 5rem 5rem;
+  width: 50%;
+  margin: 5rem 2rem 5rem 5rem;
 }
 
 .project-discussion-contacts {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.address-section, .email-section, .phone-section {
-    display: flex;
-    gap: 20px;
+.address-section,
+.email-section,
+.phone-section {
+  display: flex;
+  gap: 20px;
 }
 
 .project-discussion-contacts .css-1gtchvp-MuiPaper-root {
-    width: 100%;
-
+  width: 100%;
 }
 
 .project-discussion-description-container {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .social-media-icons-container {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
-.address-icon-section, .email-icon-section, .phone-icon-section, .linkedin-section{
-    background-color: #20B15A;
-    width: 50px;
-    display: flex;
-    border-radius: 10px;
+.address-icon-section,
+.email-icon-section,
+.phone-icon-section,
+.linkedin-section {
+  background-color: #20b15a;
+  width: 50px;
+  display: flex;
+  border-radius: 10px;
 }
 
 .linkedin-section {
-    display: flex;
-    height: 6vh;
-    margin: 15px;
+  display: flex;
+  height: 6vh;
+  margin: 15px;
 }
 
 .address-section {
-    margin: 15px;
+  margin: 15px;
 }
 
-.address-icon, .email-icon, .phone-icon, .linkedin-icon {
-    margin: auto;
-    fill: white;
+.address-icon,
+.email-icon,
+.phone-icon,
+.linkedin-icon {
+  margin: auto;
+  fill: white;
 }
 
-.address-section h3{
-    margin-top: unset !important;
+.address-section h3 {
+  margin-top: unset !important;
 }
 
 .address-section p {
-    margin-bottom: unset !important;
+  margin-bottom: unset !important;
 }
 
-.email-section-container, .phone-section-container {
-    display: flex;
-    height: 7vh;
+.email-section-container,
+.phone-section-container {
+  display: flex;
+  height: 7vh;
 }
 
-.email-section, .phone-section {
-    height: 90%;
-    margin: 15px;
+.email-section,
+.phone-section {
+  height: 90%;
+  margin: 15px;
 }
 
-.email-section h3, .phone-section h3{
-    margin: unset !important;
+.email-section h3,
+.phone-section h3 {
+  margin: unset !important;
 }
 
-.email-section p, .phone-section p {
-    margin: unset !important;
+.email-section p,
+.phone-section p {
+  margin: unset !important;
 }
 
 .social-media-icons-container {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
-.email-name, .phone-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.email-name,
+.phone-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .github-section {
-    margin-top: auto;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .github-icon {
-    fill: #20B15A
+  fill: #20b15a;
 }

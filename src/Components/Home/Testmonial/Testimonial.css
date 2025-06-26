@@ -1,20 +1,84 @@
 .awssld {
-    height: 40vh !important;
+  height: 40vh !important;
 }
 
 .awssld__content {
-    background-color: unset !important;
+  background-color: unset !important;
 }
 
+/* .awssld__controls {
+  display: none;
+} */
+
 .awssld__controls {
-    display: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.awssld__bullets {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.awssld__bullets button {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+}
+
+.awssld__bullets .awssld__bullets--active {
+  background-color: #4b285c; /* Active bullet color */
 }
 
 .slider-container {
-    display: flex;
+  display: flex;
+  flex-direction: column;
 }
 
-.awssld{
-    width: 60%;
-    margin: auto;
+.awssld {
+  width: 60%;
+  margin: auto;
+}
+
+.slider-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.testimonial-heading {
+  font-size: 32px;
+  /* margin-bottom: 40px; */
+}
+
+.testimonial-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1a2b3c;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.testimonial-role {
+  font-size: 16px;
+  color: #333;
 }
